@@ -74,8 +74,8 @@ const { autoStatusCommand, handleStatusUpdate } = require('./commands/autostatus
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A";
-global.ytch = "Mr Unique Hacker";
+global.channelLink = "https://whatsapp.com/channel/0029Va8nvZy3rZZjRGW7YG2h";
+global.ytch = "S̶̨̗̻͖̗͋̅̃̄͐̀̋̍̊̒Ṯ̷̨͔̮̣͙̑̄͗̈́͌̓͜E̸̦̺͍̪̦͎̅́̉̇P̷͇̱͙̙̊͂̊̉̏̏̂̽̀H̸̼͒̆͊̓͠͠A̵̩̓́̑̐̎N̷̤͇̱͉̖̥̣̐̆̉̃̐͗̉͋͘Ę̷̧̱̫͙͎̰̫̖̰̉͆̄̐͑̅͌̕͘̚";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -84,7 +84,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'KnightBot MD',
+            newsletterName: 'S̶̨̗̻͖̗͋̅̃̄͐̀̋̍̊̒Ṯ̷̨͔̮̣͙̑̄͗̈́͌̓͜E̸̦̺͍̪̦͎̅́̉̇P̷͇̱͙̙̊͂̊̉̏̏̂̽̀H̸̼͒̆͊̓͠͠A̵̩̓́̑̐̎N̷̤͇̱͉̖̥̣̐̆̉̃̐͗̉͋͘Ę̷̧̱̫͙͎̰̫̖̰̉͆̄̐͑̅͌̕͘̚',
             serverMessageId: -1
         }
     }
