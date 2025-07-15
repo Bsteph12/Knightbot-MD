@@ -80,10 +80,10 @@ const store = {
     }
 }
 
-let phoneNumber = "911234567890"
+let phoneNumber = "237698711207"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "KNIGHT BOT"
+global.botname = "H̵̡̨̳̀͆̏͆̈́͂͗̍͑À̸̛͖̲̰͚̻̻̱͈͓̋̓̃̀̽̓͑̿W̶̧͚̟̜̝̹͉̱̃͐Ḱ̶̡̧̤͕̹̥̪̝̺̂̒̋͑̎͌̊Ş̵̖̖͕̯̠̈"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -154,8 +154,8 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterJid: '120363419336864081@newsletter',
+                                newsletterName: 'H̵̡̨̳̀͆̏͆̈́͂͗̍͑À̸̛͖̲̰͚̻̻̱͈͓̋̓̃̀̽̓͑̿W̶̧͚̟̜̝̹͉̱̃͐Ḱ̶̡̧̤͕̹̥̪̝̺̂̒̋͑̎͌̊Ş̵̖̖͕̯̠̈',
                                 serverMessageId: -1
                             }
                         }
@@ -213,7 +213,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 6281376552730 (without + or spaces) : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number to connect H̵̡̨̳̀͆̏͆̈́͂͗̍͑À̸̛͖̲̰͚̻̻̱͈͓̋̓̃̀̽̓͑̿W̶̧͚̟̜̝̹͉̱̃͐Ḱ̶̡̧̤͕̹̥̪̝̺̂̒̋͑̎͌̊Ş̵̖̖͕̯̠̈ 😍\nFormat: 6281376552730 (without + or spaces) : `)))
         }
 
         // Clean the phone number - remove any non-digit characters
@@ -248,14 +248,14 @@ async function startXeonBotInc() {
             
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
-                text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
+                text: `😈H̵̡̨̳̀͆̏͆̈́͂͗̍͑À̸̛͖̲̰͚̻̻̱͈͓̋̓̃̀̽̓͑̿W̶̧͚̟̜̝̹͉̱̃͐Ḱ̶̡̧̤͕̹̥̪̝̺̂̒̋͑̎͌̊Ş̵̖̖͕̯̠̈ Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
                 \n✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363419336864081@newsletter',
+                        newsletterName: 'SEN STUDIO',
                         serverMessageId: -1
                     }
                 }
@@ -264,11 +264,11 @@ async function startXeonBotInc() {
             await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'KNIGHT BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MR UNIQUE HACKER`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
+      
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Bsteph12's`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MR UNIQUE HACKER`))
-            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} *developped by* ×͜×丂ㄒ乇_卩卄卂几乇_༒`))
+            console.log(chalk.green(`${global.themeemoji || '•'} H̵̡̨̳̀͆̏͆̈́͂͗̍͑À̸̛͖̲̰͚̻̻̱͈͓̋̓̃̀̽̓͑̿W̶̧͚̟̜̝̹͉̱̃͐Ḱ̶̡̧̤͕̹̥̪̝̺̂̒̋͑̎͌̊Ş̵̖̖͕̯̠̈ Connected Successfully! ✅`))
         }
         if (
             connection === "close" &&
