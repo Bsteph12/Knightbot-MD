@@ -4,17 +4,16 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
-╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
-   Version: *${settings.version || '2.0.5'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
-   YT : ${global.ytch}
-╚═══════════════════╝
+┌ ❏ *⌜H̵̡̨̳̀͆̏͆̈́͂͗̍͑À̸̛͖̲̰͚̻̻̱͈͓̋̓̃̀̽̓͑̿W̶̧͚̟̜̝̹͉̱̃͐Ḱ̶̡̧̤͕̹̥̪̝̺̂̒̋͑̎͌̊Ş̵̖̖͕̯̠̈⌟* ❏ 
+│
+├❍ ᴘʀᴇғɪx: . 
+├❍ ᴜsᴇʀ : ${settings.botOwner} 
+├❍ ᴠᴇʀsɪᴏɴ: *${settings.version || '2.0.5'}*
+├❍ ᴄᴏᴍᴍᴀɴᴅs: 50
+└ ❏
 
 *Available Commands:*
-
-╔═══════════════════╗
-🌐 *General Commands*:
+┌ ❏ 〤 *Global MENU* 〤 
 ║ ➤ .help or .menu
 ║ ➤ .ping
 ║ ➤ .alive
